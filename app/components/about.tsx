@@ -19,11 +19,11 @@ export default function About() {
           {/* Left Side: Profile Image */}
           <div className="relative group">
             <div className="relative z-10 w-full aspect-square rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl">
-              <img 
-                src="/foto4.jpeg" 
-                alt="Muhammad Iftikharul Ramadhan"
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500"
-              />
+             <img 
+                  src="/foto4.jpeg" 
+                  alt="Muhammad Iftikharul Ramadhan"
+                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500"
+                />
             </div>
             <div className="absolute -bottom-4 -left-4 w-full h-full border-2 border-blue-500/30 rounded-[2rem] -z-10 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-500"></div>
           </div>
